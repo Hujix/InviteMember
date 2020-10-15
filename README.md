@@ -31,7 +31,7 @@ InviteMember a beaucoup de fonctionnalités, **pour les système d'invitation**:
 * Une fois dans ce fichier remplissez et enregistrer.
 * Ouvrez le dossier via CMD et faite `npm install`.
 * Ensuite lancer le bot avec la commande `node .` ou `node index`
-
+* Le dashboard n'est pas encore fix mes vous pouvez le faire mes il n'est pas nécessaire 
 ## Links
 
 *   [Discord](https://discord.gg/VAatzcw)
