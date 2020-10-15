@@ -45,4 +45,4 @@ Et si vous avez une question, posez-la dans le [serveur Discord](https://discord
 
 ## License
 
-InviteMember basé sur [InviteManager](https://github.com/ManageInvite/ManageInvite) est licencié sous la licence GPL 3.0. Voir le fichier «LICENCE» pour plus d'informations. Si vous envisagez d'utiliser une partie de ce code source dans votre propre bot, je vous serais reconnaissant d'inclure une forme de crédit quelque part.
+InviteMember basé sur [ManageInvite](https://github.com/ManageInvite/ManageInvite) est licencié sous la licence GPL 3.0. Voir le fichier «LICENCE» pour plus d'informations. Si vous envisagez d'utiliser une partie de ce code source dans votre propre bot, je vous serais reconnaissant d'inclure une forme de crédit quelque part.
