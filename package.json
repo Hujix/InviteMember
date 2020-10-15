@@ -1,0 +1,39 @@
+{
+  "name": "InviteMember",
+  "version": "1.2.0",
+  "description": "InviteMember est le meilleur bot pour gérer les invitations de votre serveur! Facile à installer et à compléter!",
+  "main": "sharder.js",
+  "dependencies": {
+    "boats.js": "^2.4.0",
+    "btoa": "^1.2.1",
+    "chalk": "^2.4.2",
+    "chartjs-node-canvas": "^3.0.6",
+    "discord-backup": "^1.1.2",
+    "discord-paginationembed": "^2.0.0-beta.0",
+    "discord.js": "github:discordjs/discord.js",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7",
+    "ms": "^2.1.2",
+    "passport": "^0.4.0",
+    "passport-discord": "^0.1.3",
+    "string-similarity": "^3.0.0",
+    "zlib-sync": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalackQSM"
+  },
+  "author": "GalackQSM#7926",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GalackQSM"
+  },
+  "homepage": "https://github.com/GalackQSM"
+}
