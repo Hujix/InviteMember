@@ -35,7 +35,7 @@ const init = async () => {
 
     // connect to mongoose database
     mongoose.connect(client.config.mongodb, { useNewUrlParser: true, useUnifiedTopology: true }).catch((err) => {
-        client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
+        client.logger.log("MongoDB'ye Bağlanamıyorum. Hata:"+err, "error");
     });
 
     // Gets commands permission
@@ -79,8 +79,8 @@ init();
        })
 
 // if there are errors, log them
-client.on("disconnect", () => client.logger.log("Bot is disconnecting...", "warn"))
-    .on("reconnecting", () => client.logger.log("Bot reconnecting...", "log"))
+client.on("disconnect", () => client.logger.log("InviteModerator Bağlantısı Kesiliyor...", "warn"))
+    .on("reconnecting", () => client.logger.log("InviteModerator Bağlanıyor...", "log"))
     .on("error", (e) => client.logger.log(e, "error"))
     .on("warn", (info) => client.logger.log(info, "warn"));
 

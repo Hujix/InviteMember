@@ -34,11 +34,11 @@ module.exports = {
     },
 
     help: {
-        title: () => `ℹ InviteMember's Help Page`,
+        title: () => `ℹ InviteModerator's Help Page`,
         description: (guildName, prefix) => `${guildName}'s prefix: **${prefix}** (\`${prefix}setprefix\`)\n${guildName}'s language: **English** (\`${prefix}setlang\`)`,
         // Admin
         admin: {
-            title: () => `<:delta_administration:739611028593049702> Admin commands`,
+            title: () => `:hammer: Admin commands`,
             content: (prefix) => "`"+ prefix +"addbonus`,`"+ prefix +"removebonus`,`"+ prefix +"sync-invites`,`"+ prefix +"removeinvites`,`"+ prefix +"restoreinvites`"},
         // Ranks
         ranks: {
@@ -62,11 +62,11 @@ module.exports = {
             content: (prefix) => "`"+ prefix +"invite`,`"+ prefix +"leaderboard`"},
         // ManageInvite
         manageInvite: {
-            title: () => `:boom: InviteMember`,
+            title: () => `:boom: InviteModerator`,
             content: (prefix) => "`"+ prefix +"membercount`,`"+ prefix +"userinfo`,`"+ prefix +"botinfos`,`"+ prefix +"ping`,`"+ prefix +"partners`,`"+ prefix +"creators`,`"+ prefix +"support`,`"+ prefix +"add`"},
         // Others
         tip: (prefix) => `Tip: you can see your configuration with ${prefix}config`,
-        links: (clientID) => `[Add me](https://discordapp.com/api/oauth2/authorize?client_id=${clientID}&permissions=8&scope=bot) ● [WebSite](https://delta-bot.com) ● [Support server](${discord}) ● [Vote for me](https://discord.boats/bot/${clientID}/vote) ● [Twitter](https://twitter.com/DeltaBotInc)`
+        links: (clientID) => `[Add me](https://discordapp.com/api/oauth2/authorize?client_id=${clientID}&permissions=8&scope=bot) ● [WebSite](https://delta-bot.com) ● [Support server](${discord}) ● [Vote for me](https://discord.boats/bot/${clientID}/vote)`
     },
 
     botinfos: {
@@ -152,7 +152,7 @@ module.exports = {
     },
 
     support: {
-        content: () => `:information_source: If you have questions or you need more informations, you can join InviteMember's Lounge:\n${discord}`
+        content: () => `:information_source: If you have questions or you need more informations, you can join 's Lounge:\n${discord}`
     },
 
     addbonus: {

@@ -1,33 +1,33 @@
 module.exports = {
-    token:          "Token",
+    token:          "NzQzODAwNDYxMTkwMTAzMDgx.XzZ8KQ.7KaTGhVls8eo1SUfyqBM4GVdYcc",
     /* Emojis */
     emojis: {
-        success:    "<:success:736371474759417866>",
-        error:      "<:error:736373428315226143>",
+        success:    ":white_check_mark:",
+        error:      ":x:",
         online:     ":green_circle:",
         dnd:        ":red_circle:",
         offline:    ":white_circle:",
         idle:       ":orange_circle:",
-        loading:    "<a:delta_loading:739603016788869281>",
+        loading:    "<a:loading:780474114434400336>",
         warn:       ":warning:"
     },
     /* Embeds */
-    color:          "09bbe8",
-    footer:         "InviteMember | Crée par DeltaBot Inc.",
+    color:          "BLACK",
+    footer:         "InviteModerator",
     /* Logs */
-    addLogs:        "751201638420709448",
-    removeLogs:     "751201638420709448",
-    shardLogs:      "747973821029679214",
-    dashLogs:       "747992141128794263",
+    addLogs:        "780475584999981056",
+    removeLogs:     "780475584999981056",
+    shardLogs:      "780475685348704287",
+    dashLogs:       "780475627043815455",
     /* Dashboard */
-    secret:         "",
-    baseURL:        "http://localhost",
+    secret:         "LxKff7F3gIRwyG9gOPU8yuiSHuSrevRi",
+    baseURL:        "https://invitemoderator.cf",
     port:           80,
     pswd:           "XXXXXXXXXXX",
-    failureURL:     "https://delta-bot.com",
+    failureURL:     "https://invitemoderator.cf",
     /* Other */
-    mongodb:        "mongodb+srv://<dbname>:<motdepasse>@<dbuser>.new1f.mongodb.net/<dbname>?retryWrites=true&w=majority",
-    discord:        "https://discord.gg/VAatzcw",
-    prefix:         "+",
-    owners: [ "482517667945906177", "XXXXXXXXXXX" ]
+    mongodb:        "mongodb+srv://invmodeabbiradam:sjsj@cluster0.hvdxp.mongodb.net/test",
+    discord:        "https://discord.gg/b75CZk4XuC",
+    prefix:         "!!",
+    owners: [ "542348143379873792", "XXXXXXXXXXX" ]
 };

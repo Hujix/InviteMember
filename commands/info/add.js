@@ -15,7 +15,7 @@ class Add extends Command {
     async run (message, args, data) {
 
         let embed = new Discord.MessageEmbed()
-        .setAuthor("InviteMember", this.client.user.displayAvatarURL())
+        .setAuthor("InviteModerator", this.client.user.displayAvatarURL())
         .setDescription(message.language.add.content(this.client.user.id))
         .setColor(this.client.config.color)
         .setFooter(message.language.add.requested(message.author.username), message.author.displayAvatarURL());

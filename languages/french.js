@@ -1,5 +1,6 @@
 const { emojis, discord } = require("../config");
 
+
 module.exports = {
 
     locale: "fr_FR",
@@ -34,11 +35,11 @@ module.exports = {
     },
 
     help: {
-        title: () => `ℹ Page d'aide de InviteMember`,
+        title: () => `ℹ Page d'aide de InviteModerator`,
         description: (guildName, prefix) => `● Préfixe sur **${guildName}** : \`${prefix}\` (\`${prefix}setprefix\`)\n● Langue sur **${guildName}** : \`Français\` (\`${prefix}setlang\`)`,
         // Admin
         admin: {
-            title: () => `<:delta_administration:739611028593049702> Commandes admin`,
+            title: () => `:hammer: Commandes admin`,
             content: (prefix) => "`"+ prefix +"addbonus`,`"+ prefix +"removebonus`,`"+ prefix +"sync-invites`,`"+ prefix +"removeinvites`,`"+ prefix +"restoreinvites`"},
         // Ranks
         ranks: {
@@ -60,9 +61,9 @@ module.exports = {
         invites: {
             title: () => `:wave: Invitations`,
             content: (prefix) => "`"+ prefix +"invite`,`"+ prefix +"leaderboard`"},
-        // InviteMember
+        // InviteModerator
         manageInvite: {
-            title: () => `:boom: InviteMember`,
+            title: () => `:boom: InviteModerator`,
             content: (prefix) => "`"+ prefix +"membercount`,`"+ prefix +"userinfo`,`"+ prefix +"botinfos`,`"+ prefix +"ping`,`"+ prefix +"partners`,`"+ prefix +"creators`,`"+ prefix +"support`,`"+ prefix +"add`"},
         // Others
         tip: (prefix) => `Astuce : vous pouvez voir votre configuration avec la commande ${prefix}config`,

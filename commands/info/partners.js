@@ -18,7 +18,7 @@ class Partners extends Command {
         let partner = partners[Math.floor(Math.random() * partners.length)];
 
         let embed = new Discord.MessageEmbed()
-        .setTitle("Les partenaires de InviteMember")
+        .setTitle("Partners")
         .setDescription(partner.text)
         .setFooter(data.footer)
         .setColor(data.color);
