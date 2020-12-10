@@ -82,7 +82,7 @@ module.exports.load = async (client) => {
 
     // Listen
     app.listen(app.get("port"), (err) => {
-        console.log("Le tableau de bord d'InviteMember est sur le port "+app.get("port"));
+        console.log("Le tableau de bord InviteMember est sur le port "+app.get("port"));
     });
 
     client.spawned = true;
